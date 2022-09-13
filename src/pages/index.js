@@ -20,7 +20,7 @@ export default function IndexPage() {
   return (
     <ThemeProvider theme={theme}>
       <Layout>
-        <SEO title="Derzam" />
+        <SEO title="Marwa Pure Water" />
         <SliderSection />
         <Banner />
         <KeyFeature />
