@@ -14,14 +14,16 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Introducing Carpooling in Pakistan!
+            Introducing Marwa Pure Water in Pakistan!
           </Heading>
           <Text as="p" variant="heroSecondary">
-            As a driver, you can get your car registered and pick a passenger or
-            two on the way to your destination to cut the traveling cost. As a
-            passenger, you can find the perfect ride from a wide range of
-            destinations at the lowest fares. The Convenient and trusted service
-            is just a click away to get active on your android or iOS device.
+            We are highly dynamic friendly organisation committed to nation
+            building. Marwa Beverages is a trusted brand dedicated to provide
+            you with the safe, natural and quality water for you, your family
+            and organisation. Quality and safety is our top priority which is endorsed by
+            international and local testing labs to confirm the quality
+            standards stipulated by Marwa Beverages, the Government of Pakistan
+            and WHO. 
           </Text>
 
           {/* <Button variant='primary'>
@@ -63,7 +65,7 @@ export default function Banner() {
 
 const styles = {
   banner: {
-    pt: ["40px", "45px", "155px", "170px", null, null, "180px", "60px"],
+    pt: ["40px", "45px", "155px", "170px", null, null, "100px", "60px"],
     pb: [2, null, 0, null, 2, 0, null, 5],
     position: "relative",
     zIndex: 2,

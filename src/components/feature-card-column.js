@@ -2,14 +2,15 @@
 import { jsx, Image, Box, Heading, Text } from 'theme-ui';
 
 export default function FeatureCardColumn({
-  src,
+  ICON,
   altText = 'default alt text',
   title,
   text,
 }) {
   return (
     <Box sx={styles.card}>
-       <Image src={src} altText={altText} sx={styles.img}/>
+       {/* <Image src={Src} altText={altText} sx={styles.img}/> */}
+       <Text sx={styles.img}>{ICON}</Text>
        <Box sx={styles.wrapper}>
          <Heading sx={styles.wrapper.title}>{title}</Heading>
          <Text sx={styles.wrapper.subTitle}>{text}</Text>
@@ -32,7 +33,7 @@ const styles = {
   img: {
     mx: ['auto', null, 0],
     ml: ['auto', null, '-13px'],
-    mb: -2,
+    mb: 2,
     width: ['80px', null, null, '90px', null, 'auto'],
   },
   wrapper: {

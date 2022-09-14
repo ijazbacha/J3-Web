@@ -50,6 +50,41 @@ const data = [
     },
 ];
 
+const data2 = [
+  {
+    id: 5,
+    title: 'One-click installation and easy registration',
+    text:
+      'The viable app occupies low storage space and set ups in minutes for both the android and iOS users.',
+    InitialProcess: Screen1,
+    DriverProcess: Screen5,
+  },
+  {
+    id: 6,
+    title: 'Find or Offer a Ride ',
+    text:
+      'Post a ride so any passenger feeling the urge to travel on the same route can find it. The passenger can search and scroll through different riders enroute to the same destination.      ',
+      InitialProcess: Screen2,
+    DriverProcess: Screen6,
+    },
+  {
+    id: 7,
+    title: 'Select a pick-up and drop off spots ',
+    text:
+      'To avoid any inconvenience, both the driver and the passenger are requested to understand each other terms over a voice call or instant messaging.',
+      InitialProcess: Screen3,
+    DriverProcess: Screen7,
+    },
+  {
+    id: 8,
+    title: 'Just like that!',
+    text:
+      'You have a travelling partner now to pick or be picked by.',
+      InitialProcess: Screen4,
+    DriverProcess: Screen8,
+    },
+];
+
 export default function WorkFlow() {
   return (
     <section sx={styles.workflow} id='function'>
@@ -70,22 +105,21 @@ export default function WorkFlow() {
             </Box>
           ))}
         </Grid>
-        <h2 style={{marginTop:30, marginBottom:20, color: 'white',}} >Initial Registration</h2>
+        <SectionHeader
+          
+        />
         <Grid sx={styles.grid}>
-        {data.map((item) => (
-            <Box sx={{}} key={item.id}>
-              <Image src={item.InitialProcess} alt="Thumbnail" />
-             </Box>
+          {data2.map((item) => (
+            <Box sx={styles.card} key={item.id}>
+              <Box sx={styles.iconBox}>{`o${item.id}`}</Box>
+              <Box sx={styles.wrapper}>
+                <Heading sx={styles.wrapper.title}>{item.title}</Heading>
+                <Text sx={styles.wrapper.subTitle}>{item.text}</Text>
+              </Box>
+            </Box>
           ))}
         </Grid>
-        <h2 style={{marginTop:30, marginBottom:20, color: 'white',}} >Driver Registration</h2>
-        <Grid sx={styles.grid}>
-        {data.map((item) => (
-            <Box sx={{}} key={item.id}>
-              <Image src={item.DriverProcess} alt="Thumbnail" />
-             </Box>
-          ))}
-        </Grid>
+        
       </Container>
     </section>
   );

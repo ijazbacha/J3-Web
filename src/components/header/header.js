@@ -4,8 +4,6 @@ import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
 import DLogo from 'assets/dLogo.png';
-import DerzamLogo from 'assets/derzamlogocrop.png'
-import DerzamLogoText from 'assets/derzamlogotext.png'
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
 

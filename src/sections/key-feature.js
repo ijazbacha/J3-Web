@@ -3,41 +3,41 @@ import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
 import SectionHeader from '../components/section-header';
 import FeatureCardColumn from 'components/feature-card-column.js';
-import AffordableRide from 'assets/key-feature/AffordableRide.svg';
-import CustomerSupport from 'assets/key-feature/CustomerSupport.svg';
-import SmartSmart from 'assets/key-feature/SmartSmart.svg';
-import VacantRide from 'assets/key-feature/VacantRide.svg';
+import { FaFlask, FaCheckCircle, FaTint, FaRecycle } from "react-icons/fa";
 
 const data = [
   {
     id: 1,
-    imgSrc: AffordableRide,
-    altText: 'MOST AFFORDABLE RIDE',
-    title: 'MOST AFFORDABLE RIDE',
+    icon: <FaTint size={80} color={'#14b5a3'} />,
+    altText: 'Maxium Purity',
+    title: 'Maxium Purity',
     text:
       'An easy, fast, convenient and smart way to get around with others going your way.',
   },
   {
     id: 2,
-    imgSrc: SmartSmart,
-    altText: 'SAFE AND SMART',
-    title: 'SAFE AND SMART',
+    // imgSrc: SmartSmart,
+    icon: <FaRecycle size={80} color={'#14b5a3'} />,
+    altText: '7 Steps Filtration',
+    title: '7 Steps Filtration',
     text:
       'Count on our trustworthy members to get you where you need to go safely.',
   },
   {
     id: 3,
-    imgSrc: VacantRide,
-    altText: 'CASH THE VACANT SEAT',
-    title: 'CASH THE VACANT SEAT',
+    // imgSrc: VacantRide,
+    icon: <FaFlask size={80} color={'#14b5a3'} />,
+    altText: 'Cholorine Free',
+    title: 'Cholorine Free',
     text:
       'Get a paying partner while you are driving your car on a long journey.',
   },
   {
     id: 4,
-    imgSrc: CustomerSupport,
-    altText: 'Customer Support',
-    title: 'CUSTOMER SUPPORT',
+    // imgSrc: CustomerSupport,
+    icon: <FaCheckCircle size={80} color={'#14b5a3'} />,
+    altText: 'Quality Certified',
+    title: 'Quality Certified',
     text:
       'Get help with our customer support 24/7.',
   },
@@ -48,14 +48,15 @@ export default function KeyFeature() {
     <section sx={{ variant: 'section.keyFeature' }} id='feature'>
       <Container>
         <SectionHeader
-          slogan="Re-Shaping the way you ride"
-          title='Offer or Book a safe ride with Derzam'
+          slogan="Water is life. Treat it right"
+          title='A Trusted Name In
+          Bottled Water Industry'
         />
         <Grid sx={styles.grid}>
           {data.map((e) => (
             <FeatureCardColumn
               key={e.id}
-              src={e.imgSrc}
+              ICON={e.icon}
               alt={e.altText}
               title={e.title}
               text={e.text}
