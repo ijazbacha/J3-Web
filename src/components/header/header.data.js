@@ -13,7 +13,7 @@ export default [
   // },
   {
     path: 'function',
-    label: 'How it works',
+    label: 'How it Filter',
   },
   {
     path: 'contact',

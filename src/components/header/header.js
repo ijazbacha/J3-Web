@@ -3,7 +3,7 @@ import { jsx, Container, Flex, Button } from 'theme-ui';
 import { keyframes } from '@emotion/core';
 import { Link } from 'react-scroll';
 import Logo from 'components/logo';
-import DLogo from 'assets/dLogo.png';
+import J3Logo from 'assets/dLogo.png';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
 
@@ -11,7 +11,7 @@ export default function Header({ className }) {
   return (
     <header sx={styles.header} className={className}>
       <Container sx={styles.container}>
-        <Logo src={DLogo} />
+        <Logo src={J3Logo} />
         <Flex as="nav" sx={styles.nav}>
           {menuItems.map((menuItems, i) => (
             <Link

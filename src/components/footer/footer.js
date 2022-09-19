@@ -4,8 +4,7 @@ import { ExternalLink } from "components/link";
 // import { Link } from "react-scroll";
 import * as Scroll from 'react-scroll'
 import data from "./footer.data";
-import FooterLogo from "assets/derzamlogo.png";
-import DLogo from "../../assets/dLogo.svg";
+import J3Logo from 'assets/dLogo.png';
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
@@ -19,19 +18,19 @@ import {
 } from "react-icons/fa";
 const social = [
   {
-    path: "https://www.facebook.com/Derzam-105329162004411",
+    path: "#",
     icon: <FaFacebookF />,
   },
   {
-    path: "https://twitter.com/Derzam_",
+    path: "#",
     icon: <FaTwitter />,
   },
   {
-    path: "https://www.instagram.com/derzam_/",
+    path: "#",
     icon: <FaInstagram />,
   },
   {
-    path: "https://www.linkedin.com/in/der-zam-016652228/",
+    path: "#",
     icon: <FaLinkedin />,
   },
 ];
@@ -47,7 +46,7 @@ export default function Footer() {
       <Container>
         <Box sx={styles.footer.footerBottomArea}>
           <ExternalLink path="/">
-            <Image src={DLogo} alt="logo" />
+            <Image src={J3Logo} alt="logo" />
           </ExternalLink>
           <Box sx={styles.footer.menus}>
             <nav>
@@ -61,7 +60,7 @@ export default function Footer() {
                       
                     //   sx={styles.footer.link}
                     // />
-                    <Link href="/privacypolicy" >
+                    <Link href="/PrivacyPolicy" >
                       <a sx={styles.footer.link}>Privacy Policy</a>
                     </Link>
                   ) : (
@@ -85,9 +84,6 @@ export default function Footer() {
           </Box>
           <Text sx={styles.footer.copyright}>
             Copyright by {new Date().getFullYear()}
-            <ExternalLink sx={styles.footer.link} path='https://ataritechnologies.com/'>
-              Atari Technologies
-            </ExternalLink>
           </Text>
           <Box style={styles.social}>
             {social.map((socialItems, i) => (

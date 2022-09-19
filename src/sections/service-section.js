@@ -11,15 +11,15 @@ import Smart from 'assets/services/smart.svg';
 import Secure from 'assets/services/secure.svg';
 const data = {
   // subTitle: 'OUR STORY',
-  title: 'OUR STORY',
+  title: 'OUR MISSION',
   features: [
     {
       id: 1,
       imgSrc: Smart,
-      altText: ' OUR STORY',
-      title: 'OUR STORY',
+      altText: ' OUR MISSION',
+      title: 'OUR MISSION',
       text:
-        'The owner after a foreign tour realized the inconveniences people face with both the intercity and intracity traveling in Pakistan. Most of the car owners and travelers who frequently roam around the country for pleasure or business are unaware of the Carpool concept that is operational in different countries, whereas delivering goods from one station to the other takes days. With all these troubles of people in mind, the owner trusting his team of ablest professionals has worked out a viable mobile application that would make traveling affordable, safe, and convenient. The concept of this mobile application is built around the Carpool with one additional feature which is that people can also use it to quickly transfer goods as well.',
+        'Our mission is to provide high quality, healthy and affordable drinking water to our customers. We bring natural bottled mineral water, rich in minerals that benefit the body and increase vitality. We bring trust and mutual respect to all our relationships by continually improving the quality and process of our product. We focus on natural well-be-ing, and encourage a life style that is environmentally friendly.',
     },
     
   ],

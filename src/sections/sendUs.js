@@ -25,8 +25,10 @@ import { ExternalLink } from "components/link";
 const data = {
   subTitle: `We are delighted to be hearing from you!`,
   title: "Ask us anything you want to know.",
-  address: "Khalid Plaza, 38-W, Jinnah Ave, G 6/3 Blue Area, Islamabad, 44000",
-  Office: "Office: +92(0)51 8351 652",
+  address: "Plot No 1, Street B-01, Sector Marwa Town Islamabad.",
+  whatsapp: "WhatsApp: +92 3021888333",
+  complaint: "Complaint: +92 3450054091",
+  delivery: "Delivery: +92 3450054090",
 };
 
 
@@ -46,7 +48,9 @@ export default function SendUs() {
         <Box sx={styles.contentBox}>
           <TextFeature subTitle={data.subTitle} title={data.title} />
           <TextFeature subTitle={data.address} />
-          <TextFeature subTitle={data.Office} />
+          <TextFeature subTitle={data.whatsapp} />
+          <TextFeature subTitle={data.complaint} />
+          <TextFeature subTitle={data.delivery} />
         </Box>
 
       </Container>

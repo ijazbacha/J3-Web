@@ -11,31 +11,38 @@ export default function TextFeilds() {
   const [showMessage, setShowMessage] = useState(false);
   const [emailError, setEmailError] = useState(false);
 
-  const userMessageHandler = async () => {
+  const userMessageHandler = async (e) => {
+    e.preventDefault()
     if (validator.isEmail(email)) {
       setShowMessage(false);
       setEmailError(false);
-      console.log("email, message, valid", email, message);
-      const res = await fetch("https://app.derzam.com/users/ContactUs", {
-        body: JSON.stringify({
-          email: email,
-          message: message,
-        }),
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      }).then((res) => {
-        const result = res.json();
-        console.log("result", result);
-        setShowMessage(true);
-        setEmail("");
-        setMessage("");
-      });
-    } else {
-      setEmailError(true);
       setShowMessage(true);
-      console.log("email, message, invalid", email, message);
+      setTimeout(() =>{
+        setShowMessage(false);
+        setEmail('')
+        setMessage('')
+      },2000)
+    //   console.log("email, message, valid", email, message);
+    //   const res = await fetch("https://app.derzam.com/users/ContactUs", {
+    //     body: JSON.stringify({
+    //       email: email,
+    //       message: message,
+    //     }),
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //   }).then((res) => {
+    //     const result = res.json();
+    //     console.log("result", result);
+    //     setShowMessage(true);
+    //     setEmail("");
+    //     setMessage("");
+    //   });
+    // } else {
+    //   setEmailError(true);
+    //   setShowMessage(true);
+    //   console.log("email, message, invalid", email, message);
     }
   };
 

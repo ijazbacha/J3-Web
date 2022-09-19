@@ -9,10 +9,10 @@ const data = [
   {
     id: 1,
     icon: <FaTint size={80} color={'#14b5a3'} />,
-    altText: 'Maxium Purity',
-    title: 'Maxium Purity',
+    altText: 'Maximum Purity',
+    title: 'Maximum Purity',
     text:
-      'An easy, fast, convenient and smart way to get around with others going your way.',
+      'Marwa pure water as water free from all types of bacteria and viruses.',
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ const data = [
     altText: '7 Steps Filtration',
     title: '7 Steps Filtration',
     text:
-      'Count on our trustworthy members to get you where you need to go safely.',
+      'Marwa Pure Water is a seven-step process to produce pure water.',
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const data = [
     altText: 'Cholorine Free',
     title: 'Cholorine Free',
     text:
-      'Get a paying partner while you are driving your car on a long journey.',
+      'Marwa Pure Water is a Cholorine Free Water.',
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const data = [
     altText: 'Quality Certified',
     title: 'Quality Certified',
     text:
-      'Get help with our customer support 24/7.',
+      'Marwa Pure Water is Certified.',
   },
 ];
 

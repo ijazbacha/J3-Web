@@ -10,15 +10,15 @@ export default {
       path: 'feature',
       label: 'Features',
     },
-    {
-      id: 3,
-      path: 'services',
-      label: 'Services',
-    },
+    // {
+    //   id: 3,
+    //   path: 'services',
+    //   label: 'Services',
+    // },
     {
       id: 4,
       path: 'function',
-      label: 'Function',
+      label: 'How it Filter',
     },
     {
       id: 5,

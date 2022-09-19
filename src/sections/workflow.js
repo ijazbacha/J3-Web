@@ -18,33 +18,33 @@ import Screen8 from '../assets/RegistrationProcess/screen8.jpg';
 const data = [
   {
     id: 1,
-    title: 'One-click installation and easy registration',
+    title: 'Pre-filtration',
     text:
-      'The viable app occupies low storage space and set ups in minutes for both the android and iOS users.',
+      'Prefiltration involves the use of a filter designed to remove particulate matter (dirt, sediment, etc.) from water prior to further treatment.',
     InitialProcess: Screen1,
     DriverProcess: Screen5,
   },
   {
     id: 2,
-    title: 'Find or Offer a Ride ',
+    title: 'Charcoal Filter',
     text:
-      'Post a ride so any passenger feeling the urge to travel on the same route can find it. The passenger can search and scroll through different riders enroute to the same destination.      ',
+      'Activated charcoal is the ideal water filter because it removes toxins from the water without stripping the water of salts and important minerals.',
       InitialProcess: Screen2,
     DriverProcess: Screen6,
     },
   {
     id: 3,
-    title: 'Select a pick-up and drop off spots ',
+    title: '5 Polishing Filter',
     text:
-      'To avoid any inconvenience, both the driver and the passenger are requested to understand each other terms over a voice call or instant messaging.',
+      'A Polishing Filter (or also known as percolation area) purpose is to partially treat and dispose of the effluent from the wastewater system or septic tank.',
       InitialProcess: Screen3,
     DriverProcess: Screen7,
     },
   {
     id: 4,
-    title: 'Just like that!',
+    title: 'Reverse Osmosis',
     text:
-      'You have a travelling partner now to pick or be picked by.',
+      'Reverse osmosis is a water purification process that uses a semi-permeable membrane (synthetic lining) to filter out unwanted molecules and large particles.',
       InitialProcess: Screen4,
     DriverProcess: Screen8,
     },
@@ -53,25 +53,25 @@ const data = [
 const data2 = [
   {
     id: 5,
-    title: 'One-click installation and easy registration',
+    title: 'Ozonation',
     text:
-      'The viable app occupies low storage space and set ups in minutes for both the android and iOS users.',
+      'Ozonation (also referred to as ozonisation) is a chemical water treatment technique based on the infusion of ozone into water.',
     InitialProcess: Screen1,
     DriverProcess: Screen5,
   },
   {
     id: 6,
-    title: 'Find or Offer a Ride ',
+    title: 'UV Light',
     text:
-      'Post a ride so any passenger feeling the urge to travel on the same route can find it. The passenger can search and scroll through different riders enroute to the same destination.      ',
+      'Ultra Violet (UV) light disinfection is one water treatment system that can be used to remove most forms of microbiological contamination from water.',
       InitialProcess: Screen2,
     DriverProcess: Screen6,
     },
   {
     id: 7,
-    title: 'Select a pick-up and drop off spots ',
+    title: '1H Polishing Filter',
     text:
-      'To avoid any inconvenience, both the driver and the passenger are requested to understand each other terms over a voice call or instant messaging.',
+      'The Water Polisher is an advanced stormwater treatment system utilizing an up flow media filter with built-in pretreatment.',
       InitialProcess: Screen3,
     DriverProcess: Screen7,
     },
@@ -79,7 +79,7 @@ const data2 = [
     id: 8,
     title: 'Just like that!',
     text:
-      'You have a travelling partner now to pick or be picked by.',
+      'We produce Marwa pure water.',
       InitialProcess: Screen4,
     DriverProcess: Screen8,
     },
@@ -90,8 +90,8 @@ export default function WorkFlow() {
     <section sx={styles.workflow} id='function'>
       <Container>
         <SectionHeader
-          slogan="Using Derzam is as easy as you like"
-          title="HOW IT WORKS"
+          slogan="Marwa as a pure & natural water as you like"
+          title="HOW IT FILTER"
           isWhite={true}
         />
         <Grid sx={styles.grid}>
