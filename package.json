@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "framer-motion": "^2.7.5",
+    "framer-motion": "^2.9.5",
     "globby": "^11.0.0",
     "isomorphic-unfetch": "^3.0.0",
     "mdb-react-ui-kit": "^2.1.0",
@@ -24,6 +24,7 @@
     "react-dom": "16.13.0",
     "react-flash-message": "^1.0.8",
     "react-ga": "^3.1.2",
+    "react-horizontal-scrolling": "^0.1.13",
     "react-icons": "^3.11.0",
     "react-modal-video": "^1.2.6",
     "react-multi-carousel": "^2.5.5",

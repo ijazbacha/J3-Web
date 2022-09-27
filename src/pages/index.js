@@ -31,7 +31,7 @@ export default function IndexPage() {
         <SendUs />
         {/* <Package /> */}
         <TeamSection />
-        {/* <TestimonialCard /> */}
+        <TestimonialCard />
       </Layout>
     </ThemeProvider>
   );

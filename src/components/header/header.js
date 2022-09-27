@@ -6,10 +6,11 @@ import Logo from 'components/logo';
 import J3Logo from 'assets/dLogo.png';
 import MobileDrawer from './mobile-drawer';
 import menuItems from './header.data';
+import { motion } from "framer-motion"
 
 export default function Header({ className }) {
   return (
-    <header sx={styles.header} className={className}>
+    <motion.header initial={{y: "-100vh"}} animate={{ y: 0 }} transition={{ type:'spring', stiffness:120}} sx={styles.header} className={className}>
       <Container sx={styles.container}>
         <Logo src={J3Logo} />
         <Flex as="nav" sx={styles.nav}>
@@ -33,7 +34,7 @@ export default function Header({ className }) {
         </Button> */}
         <MobileDrawer />
       </Container>
-    </header>
+    </motion.header>
   );
 }
 

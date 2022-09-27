@@ -5,10 +5,12 @@ import Rating from 'components/rating';
 import ButtonGroup from 'components/button-group';
 import Carousel from 'react-multi-carousel';
 
+
 import Avatar1 from 'assets/testimonial/avatar1.png';
 import Avatar2 from 'assets/testimonial/avatar2.png';
 import Avatar3 from 'assets/testimonial/avatar3.png';
 import Avatar4 from 'assets/testimonial/avatar4.png';
+// import HorizontalScroll from 'react-horizontal-scrolling'
 
 const data = [
   {
@@ -43,6 +45,116 @@ const data = [
   },
   {
     id: 4,
+    title: 'Modern look & trending design',
+    description:
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    avatar: Avatar4,
+    name: 'Denny Hilguston',
+    designation: '@denny.hil',
+    review: 4,
+  },
+  {
+    id: 5,
+    title: 'Modern look & trending design',
+    description:
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    avatar: Avatar4,
+    name: 'Denny Hilguston',
+    designation: '@denny.hil',
+    review: 4,
+  },
+  {
+    id: 6,
+    title: 'Modern look & trending design',
+    description:
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    avatar: Avatar4,
+    name: 'Denny Hilguston',
+    designation: '@denny.hil',
+    review: 4,
+  },
+  {
+    id: 7,
+    title: 'Modern look & trending design',
+    description:
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    avatar: Avatar4,
+    name: 'Denny Hilguston',
+    designation: '@denny.hil',
+    review: 4,
+  },
+  {
+    id: 8,
+    title: 'Modern look & trending design',
+    description:
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    avatar: Avatar4,
+    name: 'Denny Hilguston',
+    designation: '@denny.hil',
+    review: 4,
+  },
+  {
+    id: 9,
+    title: 'Modern look & trending design',
+    description:
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    avatar: Avatar4,
+    name: 'Denny Hilguston',
+    designation: '@denny.hil',
+    review: 4,
+  },
+  {
+    id: 44,
+    title: 'Modern look & trending design',
+    description:
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    avatar: Avatar4,
+    name: 'Denny Hilguston',
+    designation: '@denny.hil',
+    review: 4,
+  },
+  {
+    id: 43,
+    title: 'Modern look & trending design',
+    description:
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    avatar: Avatar4,
+    name: 'Denny Hilguston',
+    designation: '@denny.hil',
+    review: 4,
+  },
+  {
+    id: 42,
+    title: 'Modern look & trending design',
+    description:
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    avatar: Avatar4,
+    name: 'Denny Hilguston',
+    designation: '@denny.hil',
+    review: 4,
+  },
+  {
+    id: 41,
+    title: 'Modern look & trending design',
+    description:
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    avatar: Avatar4,
+    name: 'Denny Hilguston',
+    designation: '@denny.hil',
+    review: 4,
+  },
+  {
+    id: 444,
+    title: 'Modern look & trending design',
+    description:
+      'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+    avatar: Avatar4,
+    name: 'Denny Hilguston',
+    designation: '@denny.hil',
+    review: 4,
+  },
+  {
+    id: 443,
     title: 'Modern look & trending design',
     description:
       'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
@@ -100,8 +212,26 @@ const carouselParams = {
 }
 
 export default function TestimonialCard() {
+
+  
   return (
-   <h1>Testimonial Card</h1>
+    <section  sx={{marginTop: 70, borderTop: "1px solid",
+    borderTopColor: "border_color",display: "flex",
+    pt: [7, null, 8],
+    pb: ["40px", null, "100px"],
+    textAlign: "center",
+    flexDirection: "column",}}>
+    <Container>
+      <SectionHeader
+      slogan={"Our Customer"}
+      title="Our customers are more important than our profits"
+      />
+         {data.map(({avatar, id }) => (
+        <Image key={id} src={avatar} alt={'safas'} sx={styles.memberThumb} />
+      ))}
+     
+    </Container>
+  </section>
   );
 }
 
@@ -227,5 +357,14 @@ const styles = {
     fontWeight: '500',
     fontSize: 1,
     lineHeight: 1.4,
+  },
+  memberThumb: {
+    width: ['70px', '80px', '100px', null, null, '130px'],
+    height: ['70px', '80px', '100px', null, null, '130px'],
+    flexShrink: 0,
+    border: '2px solid',
+    borderColor: 'primary',
+    borderRadius: '50%',
+    margin: 4,
   },
 };

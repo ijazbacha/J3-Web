@@ -12,10 +12,11 @@ import image1 from '../assets/SliderContents/1.jpg'
 import image2 from '../assets/SliderContents/2.jpg'
 import image3 from '../assets/SliderContents/3.jpg'
 import image4 from '../assets/SliderContents/4.jpg'
+import { motion } from "framer-motion"
 
 const SliderSection = () => {
   return (
-    <section sx={styles.banner} id="home">
+    <motion.section initial={{y: -600}} animate={{ y: 0 }} transition={{ type:'spring', stiffness:120}} sx={styles.banner} id="home" >
       <MDBCarousel showIndicators showControls fade>
         <MDBCarouselInner>
           <MDBCarouselItem className='active'>
@@ -52,7 +53,7 @@ const SliderSection = () => {
 
         </MDBCarouselInner>
       </MDBCarousel>
-    </section>
+    </motion.section>
   );
 };
 

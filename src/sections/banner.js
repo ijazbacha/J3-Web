@@ -7,15 +7,18 @@ import ShapeRight from "assets/shape-right.png";
 import MainBannerDErzum from "assets/MainBannerDErzum.svg";
 import { FaAndroid, FaApple } from "react-icons/fa";
 import { ExternalLink } from "components/link";
+import { motion } from "framer-motion"
 
 export default function Banner() {
   return (
-    <section sx={styles.banner} id="home">
+    <motion.section initial={{opacity: 0}} animate={{ opacity: 1 }} transition={{ delay: 0.7, duration:5}} sx={styles.banner} id="home">
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
-          <Heading as="h1" variant="heroPrimary">
+          
+            <Heading as="h1" variant="heroPrimary">
             Introducing Marwa Pure Water in Pakistan!
           </Heading>
+          
           <Text as="p" variant="heroSecondary">
             We are highly dynamic friendly organisation committed to nation
             building. Marwa Beverages is a trusted brand dedicated to provide
@@ -59,7 +62,7 @@ export default function Banner() {
 
         </Box> */}
       </Container>
-    </section>
+    </motion.section>
   );
 }
 
