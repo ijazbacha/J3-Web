@@ -12,19 +12,19 @@ import  { ExternalLink } from "components/link"
 
 const social = [
   {
-    path: 'https://www.facebook.com/Derzam-105329162004411',
+    path: '#',
     icon: <FaFacebookF />,
   },
   {
-    path: 'https://twitter.com/Derzam_',
+    path: '#',
     icon: <FaTwitter />,
   },
   {
-    path: 'https://www.instagram.com/derzam_/',
+    path: '#',
     icon: <FaInstagram />,
   },
   {
-    path: 'https://www.linkedin.com/in/der-zam-016652228/',
+    path: '#',
     icon: <FaLinkedin />,
   },
 ];

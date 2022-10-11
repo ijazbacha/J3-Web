@@ -43,7 +43,7 @@ export default function Banner() {
                   color: "#FFFFFF",
                 },
               }}
-              path="https://play.google.com/store/apps/details?id=com.derzam"
+              path="#"
               target="_blank"
             >
               Get it for Android <FaAndroid size={19} />

@@ -99,7 +99,7 @@ const data = [
 export default function TeamSection() {
   return (
     <section id="contact">
-      <Container>
+      <Container sx={{  py:120 }}>
         <SectionHeader 
         slogan={"Our Team"}
         title="The most qualified and talented individuals"

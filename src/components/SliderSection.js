@@ -59,7 +59,7 @@ const SliderSection = () => {
 
 const styles = {
   banner: {
-    pt: ["100px", "100px", "100px", "100px", null, null, "90px", "50px"],
+    pt: ["100px", "100px", "100px", "100px", null, null, "90px", "90px"],
     pb: [2, null, 0, null, 2, 0, null, 5],
     position: "relative",
     zIndex: 2,
