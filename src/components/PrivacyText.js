@@ -8,29 +8,29 @@ import shapePattern from 'assets/shape-pattern2.png';
 const data = [{
     // title: 'Smart Jackpots that you may love this anytime & anywhere',
     description:
-        `Privacy Policy is a part of our Terms & Conditions, which control and govern the use of our website (“Site”). We highly suggest you to go through the Terms & Conditions, in addition to our Privacy Policy. Before using and accessing Derzam's services, you agree and consent to the collection and use of your personal information as stated therein, as well as the conditions mentioned in the Terms & Conditions.`
+        `Privacy Policy is a part of our Terms & Conditions, which control and govern the use of our website (“Site”). We highly suggest you to go through the Terms & Conditions, in addition to our Privacy Policy. Before using and accessing Marwa's services, you agree and consent to the collection and use of your personal information as stated therein, as well as the conditions mentioned in the Terms & Conditions.`
 },
 {
     title: '1. From whom do we collect Personal Data:',
     description:
-        'Derzam will collect your personal information from you, or any other stakeholders for business purposes. The parties include:  \nVisitors of our Site browsing, shopping for and purchasing products, requesting information, conducting transactions, or using our Site for other purposes. Stakeholders, including, but not limited to, clients, employees, suppliers, service providers and agents of our clients. '
+        'Marwa will collect your personal information from you, or any other stakeholders for business purposes. The parties include:  \nVisitors of our Site browsing, shopping for and purchasing products, requesting information, conducting transactions, or using our Site for other purposes. Stakeholders, including, but not limited to, clients, employees, suppliers, service providers and agents of our clients. '
 },
 {
     title: '2. Respecting your right to our access of your Data:',
     description:
-        'We, at Derzam, respect your privacy. Before any personal data is stored on our Site, you have the right to know the type of information collected by us or any other parties. You will have the right to know how the information will be used, and how the data is collected by us.'
+        'We, at Marwa, respect your privacy. Before any personal data is stored on our Site, you have the right to know the type of information collected by us or any other parties. You will have the right to know how the information will be used, and how the data is collected by us.'
 }, {
     title: 'The data provided by you',
     description:
-        'Derzam has the right to collect and maintain information that you may enter on our portal, hence you have to give your consent before accessing any of our services. This data includes, but is not limited to, your name, shipping address, payment information, cell phone number, and email ID. You will also provide certain information about yourself when you set up an account on our Site. We might ask you for any necessary information before you sign up for promotions, surveys, newsletters, or any other data to participate with the Site. You may also provide data for posting comments or reviews on our social media pages and/or Site.'
+        'Marwa has the right to collect and maintain information that you may enter on our portal, hence you have to give your consent before accessing any of our services. This data includes, but is not limited to, your name, shipping address, payment information, cell phone number, and email ID. You will also provide certain information about yourself when you set up an account on our Site. We might ask you for any necessary information before you sign up for promotions, surveys, newsletters, or any other data to participate with the Site. You may also provide data for posting comments or reviews on our social media pages and/or Site.'
 }, {
     title: 'How we automatically collect your data',
     description:
-        'Derzam is authorized to collect your data using cookies and any other technology if you view our advertisements or visit the Site. You have the option to disable cookies on your browser, in case you don’t feel safe sharing your private information. However, in some cases, you might not be able to access or use the website if you disable cookies. Through your IP address, we collect information to improve your experience on our Site. Upon visiting our Site, we may collect data about the time, date, usage levels and time spent on Site, the pages you visit, or any other actions taken on the Site. '
+        'Marwa is authorized to collect your data using cookies and any other technology if you view our advertisements or visit the Site. You have the option to disable cookies on your browser, in case you don’t feel safe sharing your private information. However, in some cases, you might not be able to access or use the website if you disable cookies. Through your IP address, we collect information to improve your experience on our Site. Upon visiting our Site, we may collect data about the time, date, usage levels and time spent on Site, the pages you visit, or any other actions taken on the Site. '
 }, {
     title: 'The data provided by you',
     description:
-        'Derzam has the right to collect and maintain information that you may enter on our portal, hence you have to give your consent before accessing any of our services. This data includes, but is not limited to, your name, shipping address, payment information, cell phone number, and email ID. You will also provide certain information about yourself when you set up an account on our Site. We might ask you for any necessary information before you sign up for promotions, surveys, newsletters, or any other data to participate with the Site. You may also provide data for posting comments or reviews on our social media pages and/or Site.'
+        'Marwa has the right to collect and maintain information that you may enter on our portal, hence you have to give your consent before accessing any of our services. This data includes, but is not limited to, your name, shipping address, payment information, cell phone number, and email ID. You will also provide certain information about yourself when you set up an account on our Site. We might ask you for any necessary information before you sign up for promotions, surveys, newsletters, or any other data to participate with the Site. You may also provide data for posting comments or reviews on our social media pages and/or Site.'
 }, {
     title: 'Data collected from other Sites and Sources',
     description:
@@ -95,7 +95,7 @@ const data = [{
 {
     title: 'How your Information is protected',
     description:
-        `Derzam has a strict policy of protecting and securing your personal data, both offline and online. We prohibit illegal and unauthorized access to your personal information to maintain and ensure data accuracy, and to guarantee the right use of information. Through the use of technology, we prevent loss, alteration, or misuse of your personal data. For instance, soft copy and electronically collected information is stored on our highly secure servers, and hard copies are maintained in secure lockers. Other measures used for further protection of your data include firewall protection, 2-factor identification, password protection, and other electronic measures.
+        `Marwa has a strict policy of protecting and securing your personal data, both offline and online. We prohibit illegal and unauthorized access to your personal information to maintain and ensure data accuracy, and to guarantee the right use of information. Through the use of technology, we prevent loss, alteration, or misuse of your personal data. For instance, soft copy and electronically collected information is stored on our highly secure servers, and hard copies are maintained in secure lockers. Other measures used for further protection of your data include firewall protection, 2-factor identification, password protection, and other electronic measures.
 
         Since no data transaction is 100% secure, we strongly recommend you to reach out to us through our “Contact Us” section if you believe that your data is not secure (Refer to Section 7 of our Privacy Policy).
         `
@@ -144,7 +144,7 @@ const data = [{
 }, {
     title: '7. Contacting us',
     description:
-        `If you have any questions or doubts, you can Contact Us via our Site by filling in your details and sending us a message. You can also email us at info@derzam.com or send us a message on WhatsApp. You can find our contact number on the “Contact Us” webpage on our Site. Our customer support representatives will get back to you as speedily as possible.`
+        `If you have any questions or doubts, you can Contact Us via our Site by filling in your details and sending us a message. You can also email us at info@Marwa.com or send us a message on WhatsApp. You can find our contact number on the “Contact Us” webpage on our Site. Our customer support representatives will get back to you as speedily as possible.`
 }, {
     title: '',
     description:
