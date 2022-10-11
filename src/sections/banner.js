@@ -1,10 +1,8 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
 import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
-import BannerImg from "assets/banner-thumb.png";
 import ShapeLeft from "assets/shape-left.png";
 import ShapeRight from "assets/shape-right.png";
-import MainBannerDErzum from "assets/MainBannerDErzum.svg";
 import { FaAndroid, FaApple } from "react-icons/fa";
 import { ExternalLink } from "components/link";
 import { motion } from "framer-motion"
